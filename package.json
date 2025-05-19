@@ -1,0 +1,35 @@
+{
+  "name": "patchyn",
+  "version": "1.0.0",
+  "description": "Python to EXE Converter (Auto-Install PyInstaller)",
+  "bin": {
+    "patchyn": "./patchyn.js"
+  },
+  "scripts": {
+    "start": "node patchyn.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "python",
+    "exe",
+    "converter",
+    "cli",
+    "pyinstaller",
+    "compiler"
+  ],
+  "author": "KaitoNeko",
+  "license": "MIT",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": ">=14.x"
+  },
+  "homepage": "https://github.com/tuusuario/patchyn",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuusuario/patchyn.git"
+  }
+}
